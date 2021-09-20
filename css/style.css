@@ -1,0 +1,41 @@
+* {
+  margin: 0;
+  padding: 0;
+  overflow-x: hidden;
+}
+
+header {
+  width: 100%;
+  background-color: #ececec;
+  color: black;
+  padding-top: 2rem;
+}
+
+.inner-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  max-width: 70rem;
+  border-bottom: 2.3px solid black;
+  padding-bottom: 2rem;
+}
+
+.logo {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+}
+
+.links {
+  display: flex;
+  list-style: none;
+  padding-left: 1rem;
+  display: inline;
+}
+
+/*# sourceMappingURL=style.css.map */
